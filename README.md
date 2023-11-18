@@ -7,7 +7,9 @@ ZK Gesture is an innovative Hackathon project that integrates Machine Learning (
 # Technology Stack:
 Machine Learning: The project leverages TensorFlow, a popular ML framework, running in the browser to detect and analyze hand patterns.
 
-Blockchain: Integrates with Aleo blockchain to securely manage transaction verification.
+Blockchain: This solution requires ZK but can be deployed on blockchains that support ZK.
+
+- Deployed on Aleo https://explorer.aleo.org/transaction/at1ty7ml5jvtpnw546eq0u25eakt6wyed30uy50u574wenm56mfespq7x05lq?tab=overview
 
 Zero Knowledge Proofs: Utilizes ZK proofs to confirm computations that happened off-chain without revealing specific data about the transactions.
 
