@@ -756,7 +756,7 @@ const HandPoseDetection = () => {
     <div>
       <Card>
         <Card.Body>
-          <Card.Title>Hand Pose</Card.Title>
+          <Card.Title>Verifying hand signals on-chain with ML and ZK</Card.Title>
           <Row>
             <Col>
               <div

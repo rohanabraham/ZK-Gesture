@@ -6,7 +6,7 @@ const Ezkl = () => {
     <div>
       <div className="text-center">
         <h2>ZK Gesture</h2>
-        <p>Verifying hand signals on-chain with ML and ZK </p>
+        <p>"Giving blochains eyes" with ZK</p>
       </div>
 
       <Row>

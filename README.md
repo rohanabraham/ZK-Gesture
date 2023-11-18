@@ -31,21 +31,18 @@ It uses two different on-chain methods
 
 TODO: The example does not implement the on-chain check for set_reference_points or verify at the moment. This can however be done with the https://aleo.tools/develop and loading the contract aleo_contract.aleo, load a private key and should be able to perform actions with the following parameters as an example
 
-- set_reference_points
+- set_reference_keysinputs
 
-address, aleo1fsznz7x20kh9g5d8ksznjxye44nq34jp39xc63zp7rfps9ky05gsfca90p
-
-points, [{ x: 197i64, y: 315i64 },{ x: 248i64, y: 284i64 },{ x: 282i64,  y: 247i64 },{ x: 309i64, y: 213i64 },{ x: 339i64,  y: 194i64 },{ x: 227i64, y: 186i64 },{ x: 227i64,   y: 133i64 },{ x: 226i64,  y: 101i64 },{ x: 224i64,  y: 736i64 },{ x: 198i64, y: 186i64 },{ x: 199i64, y: 128i64 },{ x: 201i64, y: 932i64 },{ x: 203i64, y: 635i64 },{ x: 172i64,  y: 195i64 },{ x: 163i64,  y: 143i64 },{ x: 159i64, y: 112i64 },{ x: 158i64, y: 851i64 },{ x: 145i64, y: 211i64 },{ x: 139i64, y: 170i64 },{ x: 137i64,  y: 145i64 },{ x: 137i64,  y: 120i64 }]
-
-Example https://explorer.aleo.org/transaction/at12mj6h2f2fpx6qhtfttlpfxjdau6fwx0gep7uwwr4sa2jq59tgcxqanapk8
-
-- verify
-
-address, aleo1fsznz7x20kh9g5d8ksznjxye44nq34jp39xc63zp7rfps9ky05gsfca90p
+address, arrayaleo1fsznz7x20kh9g5d8ksznjxye44nq34jp39xc63zp7rfps9ky05gsfca90p
 
 points, [{ x: 197i64, y: 315i64 },{ x: 248i64, y: 284i64 },{ x: 282i64,  y: 247i64 },{ x: 309i64, y: 213i64 },{ x: 339i64,  y: 194i64 },{ x: 227i64, y: 186i64 },{ x: 227i64,   y: 133i64 },{ x: 226i64,  y: 101i64 },{ x: 224i64,  y: 736i64 },{ x: 198i64, y: 186i64 },{ x: 199i64, y: 128i64 },{ x: 201i64, y: 932i64 },{ x: 203i64, y: 635i64 },{ x: 172i64,  y: 195i64 },{ x: 163i64,  y: 143i64 },{ x: 159i64, y: 112i64 },{ x: 158i64, y: 851i64 },{ x: 145i64, y: 211i64 },{ x: 139i64, y: 170i64 },{ x: 137i64,  y: 145i64 },{ x: 137i64,  y: 120i64 }]
 
-Example https://explorer.aleo.org/transaction/at1078850hux6e67qm95lx2mqyk7dqedgn97janmagy550g045dpg9qh384fm
+- verifyinputs
+
+address, arrayaleo1fsznz7x20kh9g5d8ksznjxye44nq34jp39xc63zp7rfps9ky05gsfca90p
+
+points, [{ x: 197i64, y: 315i64 },{ x: 248i64, y: 284i64 },{ x: 282i64,  y: 247i64 },{ x: 309i64, y: 213i64 },{ x: 339i64,  y: 194i64 },{ x: 227i64, y: 186i64 },{ x: 227i64,   y: 133i64 },{ x: 226i64,  y: 101i64 },{ x: 224i64,  y: 736i64 },{ x: 198i64, y: 186i64 },{ x: 199i64, y: 128i64 },{ x: 201i64, y: 932i64 },{ x: 203i64, y: 635i64 },{ x: 172i64,  y: 195i64 },{ x: 163i64,  y: 143i64 },{ x: 159i64, y: 112i64 },{ x: 158i64, y: 851i64 },{ x: 145i64, y: 211i64 },{ x: 139i64, y: 170i64 },{ x: 137i64,  y: 145i64 },{ x: 137i64,  y: 120i64 }]
+
 
 # How It Works:
 Initial Scan: A user performs a hand gesture, which is captured and set as their reference pattern.
