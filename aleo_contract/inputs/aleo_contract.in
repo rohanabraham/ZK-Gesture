@@ -1,4 +1,51 @@
-// The program input for aleo_contract/src/main.leo
-[main]
-public a: u32 = 1u32;
-b: u32 = 2u32;
+[set_reference_points]
+owner: address = aleo1fsznz7x20kh9g5d8ksznjxye44nq34jp39xc63zp7rfps9ky05gsfca90p;
+referencePoints: Point = [
+            Point { x: 197i64, y: 315i64 },
+            Point { x: 248i64, y: 284i64 },
+            Point { x: 282i64,  y: 247i64 },
+            Point { x: 309i64, y: 213i64 },
+            Point { x: 339i64,  y: 194i64 },
+            Point { x: 227i64, y: 186i64 },
+            Point { x: 227i64,   y: 133i64 },
+            Point { x: 226i64,  y: 101i64 },
+            Point { x: 224i64,  y: 736i64 },
+            Point { x: 198i64, y: 186i64 },
+            Point { x: 199i64, y: 128i64 },
+            Point { x: 201i64, y: 932i64 },
+            Point { x: 203i64, y: 635i64 },
+            Point { x: 172i64,  y: 195i64 },
+            Point { x: 163i64,  y: 143i64 },
+            Point { x: 159i64, y: 112i64 },
+            Point { x: 158i64, y: 851i64 },
+            Point { x: 145i64, y: 211i64 },
+            Point { x: 139i64, y: 170i64 },
+            Point { x: 137i64,  y: 145i64 },
+            Point { x: 137i64,  y: 120i64 }
+        ];
+
+[verify]
+owner: address = aleo1fsznz7x20kh9g5d8ksznjxye44nq34jp39xc63zp7rfps9ky05gsfca90p;
+userPoints: Point = [
+            Point { x: 197i64, y: 315i64 },
+            Point { x: 248i64, y: 284i64 },
+            Point { x: 282i64,  y: 247i64 },
+            Point { x: 309i64, y: 213i64 },
+            Point { x: 339i64,  y: 194i64 },
+            Point { x: 227i64, y: 186i64 },
+            Point { x: 227i64,   y: 133i64 },
+            Point { x: 226i64,  y: 101i64 },
+            Point { x: 224i64,  y: 736i64 },
+            Point { x: 198i64, y: 186i64 },
+            Point { x: 199i64, y: 128i64 },
+            Point { x: 201i64, y: 932i64 },
+            Point { x: 203i64, y: 635i64 },
+            Point { x: 172i64,  y: 195i64 },
+            Point { x: 163i64,  y: 143i64 },
+            Point { x: 159i64, y: 112i64 },
+            Point { x: 158i64, y: 851i64 },
+            Point { x: 145i64, y: 211i64 },
+            Point { x: 139i64, y: 170i64 },
+            Point { x: 137i64,  y: 145i64 },
+            Point { x: 137i64,  y: 120i64 }
+        ];
