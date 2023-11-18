@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "ZK Gesture",
+  "name": "Verifying hand signals on-chain with ML and ZK",
   "icons": [
     {
       "src": "favicon.ico",
