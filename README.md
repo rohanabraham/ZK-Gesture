@@ -1,4 +1,4 @@
-# ZK-Gesture
+# ZK-Gesture: Giving blockchain eyes with ZK
 Verifying hand signals on-chain with ML and ZK
 
 # Concept
