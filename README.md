@@ -2,7 +2,7 @@
 Verifying hand signals on-chain with ML and ZK
 
 # Concept
-ZK Gesture is an innovative Hackathon project that integrates Machine Learning (ML) and Zero Knowledge (ZK) proofs to create a novel authentication system on the blockchain. The core idea is to use hand gestures, specifically patterns like a Vulcan hand salute, as a unique authenticator for blockchain transactions.
+ZK Gesture is a Hackathon project that integrates Machine Learning (ML) and Zero Knowledge (ZK) proofs. The core idea of this demo is to use hand gestures, specifically patterns like a Vulcan hand salute, as a unique factor for blockchain authentication.
 ![Login with a hand signal](https://github.com/rohanabraham/ZK-Gesture/blob/main/Notes/Vulcan%20Hand%20Salute%20login.png?raw=true)
 
 # Demo
@@ -54,13 +54,15 @@ Subsequent Transactions: For future transactions, the user repeats the gesture. 
 
 Normalization and Verification: To simplify the ZK component, the captured points are normalized and compared with the reference points to verify a match.
 
-Advancements in ZK: The project capitalizes on recent advancements in ZK proofs, allowing the verification with ZK computation of off-chain models and making the system more efficient and robust.
+Advancements in ZK: The project capitalizes on recent advancements in ZK proofs, allowing the verification with ZK computation of off-chain models.
 
-# Potential Use Cases:
-With more improvements to ZK, we could potentially run the whole ML model on-chain. We could also use more complex ML models than on this example.
+# Potential Future Use Cases:
+With more improvements to ZK, we could potentially run the whole ML model on-chain. In time, we could also use more way more complex ML models than on this example like Face recognition and even potentially LLMs.
 
-Authentication: Similar to Face ID or Touch ID, ZK Gesture could offer a new form of biometric authentication for secure access and transactions.
+Authentication and Identity verification: Similar to Face ID or Touch ID, ZK Gesture could offer a new factor in the form of biometric authentication for secure access and transactions. Additional factors for authentication minimize the downside of losing a private key. With account abstraction, it is possible to reset a private key combining with other factors.
+
+Financial Services: Additional verification with Voice or Face or additional biometric features along with transaction signatures to help with KYC / KYT.
 
 Blockchain Applications: The combination of ML and ZK proofs equips the blockchain with "eyes and ears," enabling it to process and authenticate unique physical patterns.
 
-Future Implications: This project paves the way for more complex and secure authentication methods in blockchain technology, expanding possibilities for user verification and transaction security.
+Future Implications: This project demonstrates possibilties for more complex and secure authentication methods in blockchain technology, expanding possibilities for user verification and transaction security.
